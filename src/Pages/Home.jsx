@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PortfolioCards from '../Components/PortfolioCards'
 import HomeCard from '../Components/HomeCard'
 import Abouts from '../Components/abouts'
 import SkillSection from '../Components/SkillSection'
+import ProjectSection from '../Components/ProjectSection'
+import ContactSection from '../Components/ContactSection'
 
 
 
@@ -13,6 +15,8 @@ const Home = () => {
       <HomeCard/>
       <Abouts/>
       <SkillSection/>
+      <ProjectSection/>
+      <ContactSection/>
     </div>
   )
 }
